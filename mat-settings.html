@@ -7,10 +7,25 @@ The complete set of contributors may be found at https://expandjs.github.io/CONT
 -->
 
 <!--
-This element is used to overwrite the default material design settings, for example `theme`.
+An element used to set the `default` values for Material Design styling.
+
+```html
+<mat-paper>Default theme (light)</mat-paper>
+<mat-paper theme="dark">Dark theme</mat-paper>
+```
+
+With the `theme` attribute, you can change the default theme from `light` to `dark`,
+removing the need to explicitly write it every time.
+
+```html
+<mat-settings theme="dark"></mat-settings>
+
+<mat-paper>Default theme (dark)</mat-paper>
+<mat-paper theme="light">Light theme</mat-paper>
+```
 
 @element mat-settings
-@description A custom element used to overwrite the default material design settings, for example `theme`.
+@description A custom element used to set the `default` values for Material Design styling
 @keywords material design, material app, web app, html5, expandjs, web-components
 @group functionality
 @homepage http://expandjs.com/elements/mat-settings
@@ -19,8 +34,8 @@ This element is used to overwrite the default material design settings, for exam
 @behavior xp-shared-behavior /bower_components/xp-shared-behavior/xp-shared-behavior.html
 
 @dependency polymer Polymer/polymer#^1.0.0
-@dependency expandjs ExpandJS/expandjs#0.9.5
-@dependency xp-shared-behavior ExpandJS/xp-shared-behavior#0.9.5
+@dependency expandjs ExpandJS/expandjs#0.9.6
+@dependency xp-shared-behavior ExpandJS/xp-shared-behavior#0.9.6
 -->
 
 <link rel="import" href="../polymer/polymer.html">
