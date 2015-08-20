@@ -2,6 +2,7 @@
   "name": "mat-settings",
   "license": "BSD-3-Clause",
   "version": "0.9.6",
+  "main": "mat-settings.html",
   "description": "A custom element used to set the `default` values for Material Design styling",
   "homepage": "http://expandjs.com/elements/mat-settings",
   "authors": [
@@ -16,9 +17,6 @@
     "html5",
     "expandjs",
     "web-components"
-  ],
-  "main": [
-    "mat-settings.html"
   ],
   "ignore": [
     "**/.*"
