@@ -22,8 +22,8 @@
     "**/.*"
   ],
   "dependencies": {
-    "expandjs": "ExpandJS/expandjs#0.9.5",
-    "xp-shared-behavior": "ExpandJS/xp-shared-behavior#0.9.5",
+    "expandjs": "ExpandJS/expandjs#0.9.8",
+    "xp-shared-behavior": "ExpandJS/xp-shared-behavior#0.9.8",
     "polymer": "Polymer/polymer#^1.0.0"
   }
 }
